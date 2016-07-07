@@ -1,0 +1,18 @@
+import sys
+
+def print_name():
+    print "Subdomain - Introduction"
+    
+def ifelse_demo():
+    print "Enter a number"
+    N = int(raw_input().strip())
+
+    if N % 2 == 1:
+        print "Weird"
+    elif N % 2 == 0 and 2 <= N <= 5:
+        print "Not Weird"
+    elif N % 2 == 0 and 6 <= N <= 20:
+        print "Weird"
+    else:
+        print "Not Weird"
+
