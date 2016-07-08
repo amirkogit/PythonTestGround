@@ -17,6 +17,11 @@ intro.print_info()
 
 #intro.simple_loop()
 
+#intro.print_function()
+
+print ("End of Subdomain/Introduction")
+print
+
 ################################################################
 ################################################################
 
@@ -28,6 +33,10 @@ intro.print_info()
 
 dt.print_info()
 
+dt.list_intro()
+
+print ("End of Subdomain/Data Types")
+print
 
 ################################################################
 ################################################################
