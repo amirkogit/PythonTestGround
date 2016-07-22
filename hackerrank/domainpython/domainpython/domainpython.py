@@ -39,7 +39,9 @@ dt.print_info()
 
 #dt.tuples_intro()
 
-dt.list_comprehensions()
+#dt.list_comprehensions()
+
+dt.second_largest_number()
 
 print ("End of Subdomain/Data Types")
 print

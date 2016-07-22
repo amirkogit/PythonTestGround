@@ -61,3 +61,19 @@ def list_comprehensions():
     arr = []
     [ arr.append([x,y,z]) for x in range(X+1) for y in range(Y+1) for z in range(Z+1) if x+y+z != N ] 
     print arr
+
+# you are given N numbers. Store them in a list and find the second largest number
+def second_largest_number():
+    N = int(input())
+    num = raw_input()
+    arr = list(map(int,num.split()))
+    large1,large2 = -9999, -9999
+
+    for i in arr:
+        if(i > large1):
+            large1,large2 = i,large1
+        elif (i < large1 and i > large2):
+            large2 = i
+
+    print(large2)
+
