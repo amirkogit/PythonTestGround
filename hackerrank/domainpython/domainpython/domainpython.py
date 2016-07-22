@@ -19,6 +19,8 @@ intro.print_info()
 
 #intro.print_function()
 
+#intro.check_leap_year_demo()
+
 print ("End of Subdomain/Introduction")
 print
 
@@ -33,7 +35,8 @@ print
 
 dt.print_info()
 
-dt.list_intro()
+#dt.list_intro_basic()
+
 
 print ("End of Subdomain/Data Types")
 print

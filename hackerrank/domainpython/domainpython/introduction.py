@@ -61,3 +61,18 @@ def print_function():
     n = int(raw_input())
     for i in range(1,n):
         print (i,end = '')
+
+# Write a function
+def is_leap(year):
+    if year % 400 == 0:
+        return True
+    if year % 100 == 0:
+        return False
+    if year % 4 == 0:
+        return True
+    return False
+
+# calling a function to check leap year
+def check_leap_year_demo():
+    year = int(raw_input())
+    print (is_leap(year))
