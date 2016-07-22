@@ -37,6 +37,9 @@ dt.print_info()
 
 #dt.list_intro_basic()
 
+#dt.tuples_intro()
+
+dt.list_comprehensions()
 
 print ("End of Subdomain/Data Types")
 print
