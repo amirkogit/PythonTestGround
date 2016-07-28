@@ -21,6 +21,8 @@ intro.print_info()
 
 #intro.check_leap_year_demo()
 
+intro.generate_input_min_index_diff()
+
 print ("End of Subdomain/Introduction")
 print
 
@@ -41,7 +43,7 @@ dt.print_info()
 
 #dt.list_comprehensions()
 
-dt.second_largest_number()
+#dt.second_largest_number()
 
 print ("End of Subdomain/Data Types")
 print

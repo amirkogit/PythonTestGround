@@ -76,3 +76,24 @@ def is_leap(year):
 def check_leap_year_demo():
     year = int(raw_input())
     print (is_leap(year))
+
+def generate_input_min_index_diff():
+    import random
+    # generate input for minimum index difference problem
+    arr_size = 20
+    arr1 = []
+    arr2 = []
+    [arr1.append(x) for x in range(arr_size)]
+    random.shuffle(arr1)
+
+    file = open('c:\\temp\\q1_input_20.txt','w')
+    file.write("%d\n" %arr_size)
+    for i in arr1:
+        file.write("%d " %i)
+    file.write("\n")
+
+    arr2 = arr1
+    random.shuffle(arr2)
+    for i in arr2:
+        file.write("%d " %i)
+    file.close()
