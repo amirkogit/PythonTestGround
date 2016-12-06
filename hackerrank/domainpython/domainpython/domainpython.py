@@ -21,7 +21,7 @@ intro.print_info()
 
 #intro.check_leap_year_demo()
 
-intro.generate_input_min_index_diff()
+#intro.generate_input_min_index_diff()
 
 print ("End of Subdomain/Introduction")
 print

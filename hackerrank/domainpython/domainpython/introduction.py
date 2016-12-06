@@ -97,3 +97,4 @@ def generate_input_min_index_diff():
     for i in arr2:
         file.write("%d " %i)
     file.close()
+
